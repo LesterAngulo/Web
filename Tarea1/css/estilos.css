@@ -1,0 +1,170 @@
+:root {
+    --white: #ffffff;
+    --orange: #F0BE3F;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: var(--white);
+    position: relative;
+}
+
+header nav {
+
+    background: var(--white);
+    border: 1px solid #e7e7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header nav ul li {
+    display: inline;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+input[type="submit"] {
+  height:30px;
+  
+}
+
+
+input[type="submit"] {
+    background: var(--orange);
+    color: #FFF;
+    margin-right: 25px;
+    border: none;
+    height:25px;
+}
+.s1 input[type="Button"] {
+    background: none;
+    color: #4ECAC2;
+    margin-left: 330px;
+    border: none;
+    font-size:20px;
+}
+
+
+.logo {
+    position: flex;
+    margin-left: 43%;
+}
+
+.div {
+    margin-bottom: 10px;
+}
+
+/*SECCIONES*/
+
+.s1 article {
+    display: flexbox;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 190px;
+}
+
+.s1 h1 {  
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.s1 h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+.s1 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.s1 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+    font-size: 20px;
+    text-align: center;
+}
+
+.librosimg img  {
+    width: 60%;
+}
+
+.s2 article{
+    width: 30%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.s2 input {
+    padding: 5px 10px;
+    background: #FFF;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    border-radius: 3px;
+    align-self: center;
+}
+
+.s3 h2,h4 {  
+    font-family: serif;
+    font-size: 25px;
+    text-align: center;
+    margin:10px;
+}
+
+.s3 h4{
+    color: rgb(128, 128, 128);
+}
+
+
+main, aside {
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+main {
+    width: 50%;
+}
+
+aside {
+    width: 45%;
+}
+
+
+/*FOOTER*/
+
+footer {
+    height: 100px;
+    color: #FFF;
+    font-size: 36px;
+    background: var(--pink);
+    display: flex;
+    padding: 8px 10px 0;
+    margin-top: 25px;
+}
+
+footer div {
+    width: 32%;
+    padding: 10px 5px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: var(--dark-pink);
+}
+.footer input[type="button"] {
+    background: none;
+    color: #000000;
+    margin-left: 45px;
+    font-style: inherit;
+    border: 1px solid var(--orange);
+    height:50px;
+    width:  120px;
+    
+  }
